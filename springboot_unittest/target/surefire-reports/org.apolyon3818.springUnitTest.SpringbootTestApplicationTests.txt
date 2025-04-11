@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apolyon3818.springUnitTest.SpringbootTestApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.814 s - in org.apolyon3818.springUnitTest.SpringbootTestApplicationTests

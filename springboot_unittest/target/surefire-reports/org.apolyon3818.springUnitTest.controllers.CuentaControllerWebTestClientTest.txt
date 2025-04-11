@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: org.apolyon3818.springUnitTest.controllers.CuentaControllerWebTestClientTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.788 s <<< FAILURE! - in org.apolyon3818.springUnitTest.controllers.CuentaControllerWebTestClientTest
+test_Detalle_1  Time elapsed: 0.021 s  <<< FAILURE!
+java.lang.AssertionError: JSON path "$.saldo" expected:<900> but was:<800>
+	at org.apolyon3818.springUnitTest.controllers.CuentaControllerWebTestClientTest.test_Detalle_1(CuentaControllerWebTestClientTest.java:111)
+
+test_Detalle_2  Time elapsed: 0.024 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2100.00> but was: <2200.00>
+	at org.apolyon3818.springUnitTest.controllers.CuentaControllerWebTestClientTest.lambda$test_Detalle_2$2(CuentaControllerWebTestClientTest.java:128)
+	at org.apolyon3818.springUnitTest.controllers.CuentaControllerWebTestClientTest.test_Detalle_2(CuentaControllerWebTestClientTest.java:125)
+
+test_listar  Time elapsed: 0.019 s  <<< FAILURE!
+java.lang.AssertionError: JSON path "$[0].saldo" expected:<900> but was:<800>
+	at org.apolyon3818.springUnitTest.controllers.CuentaControllerWebTestClientTest.test_listar(CuentaControllerWebTestClientTest.java:143)
+
+test_listar_v2  Time elapsed: 0.036 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <900.0> but was: <800.0>
+	at org.apolyon3818.springUnitTest.controllers.CuentaControllerWebTestClientTest.lambda$test_listar_v2$3(CuentaControllerWebTestClientTest.java:164)
+	at org.apolyon3818.springUnitTest.controllers.CuentaControllerWebTestClientTest.test_listar_v2(CuentaControllerWebTestClientTest.java:158)
+
+test_Guardar  Time elapsed: 0.026 s  <<< FAILURE!
+java.lang.AssertionError: JSON path "$.id" expected:<4> but was:<5>
+	at org.apolyon3818.springUnitTest.controllers.CuentaControllerWebTestClientTest.test_Guardar(CuentaControllerWebTestClientTest.java:190)
+
+test_Guardar_v2  Time elapsed: 0.021 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <5> but was: <6>
+	at org.apolyon3818.springUnitTest.controllers.CuentaControllerWebTestClientTest.lambda$test_Guardar_v2$4(CuentaControllerWebTestClientTest.java:215)
+	at org.apolyon3818.springUnitTest.controllers.CuentaControllerWebTestClientTest.test_Guardar_v2(CuentaControllerWebTestClientTest.java:212)
+
