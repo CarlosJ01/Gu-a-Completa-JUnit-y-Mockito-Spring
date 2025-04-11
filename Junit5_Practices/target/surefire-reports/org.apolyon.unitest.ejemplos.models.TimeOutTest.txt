@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: org.apolyon.unitest.ejemplos.models.TimeOutTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.508 s <<< FAILURE! - in org.apolyon.unitest.ejemplos.models.TimeOutTest
+timeout_test  Time elapsed: 1.008 s  <<< ERROR!
+java.util.concurrent.TimeoutException: timeout_test() timed out after 1 second
+

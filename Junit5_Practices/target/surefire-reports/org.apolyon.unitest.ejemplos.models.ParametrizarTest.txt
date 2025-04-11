@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.apolyon.unitest.ejemplos.models.ParametrizarTest
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.128 s <<< FAILURE! - in org.apolyon.unitest.ejemplos.models.ParametrizarTest
+test_Debito_Cuenta_Parametrizado_CSV_File{String}[7]  Time elapsed: 0.004 s  <<< ERROR!
+org.apolyon.unitest.ejemplos.exceptions.DineroInsuficienteException: Dinero insuficiente
+	at org.apolyon.unitest.ejemplos.models.ParametrizarTest.test_Debito_Cuenta_Parametrizado_CSV_File(ParametrizarTest.java:68)
+
